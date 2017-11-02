@@ -23,7 +23,7 @@ window.cordova.plugins.generic.printer.usb.scan(
 
 You can send data in the selected printer:
 
-...
+```
 window.cordova.plugins.generic.printer.usb.print(printer, data,
     function(success) {
         alert("print success: " + success);
@@ -33,11 +33,11 @@ window.cordova.plugins.generic.printer.usb.print(printer, data,
         deferred.reject(fail);
     }
 );
-...
+```
 
 You can send a Test in the selected printer:
 
-...
+```
 window.cordova.plugins.generic.printer.usb.test(printer,
     function(success) {
         alert("print success: " + success);
@@ -48,7 +48,7 @@ window.cordova.plugins.generic.printer.usb.test(printer,
     }
 );
 
-...
+```
 
 
 ## Install Cordova
