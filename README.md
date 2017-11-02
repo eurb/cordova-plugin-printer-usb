@@ -54,5 +54,5 @@ window.cordova.plugins.generic.printer.usb.test(printer,
 ## Install Cordova
 
 ```
-cordova plugin add cordova-plugin-zebra-printer
+cordova plugin add cordova-plugin-printer-usbr
 ```
