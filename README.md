@@ -4,7 +4,7 @@ A Cordova/Phonegap plugin which one can print a message on the selected usb prin
 # Usage
 
 You can find a printer using:
-
+```
 window.cordova.plugins.generic.printer.usb.scan(
     function(result) {
         if (typeof result == 'string') {
@@ -19,5 +19,5 @@ window.cordova.plugins.generic.printer.usb.scan(
         alert('Printer: connect fail: ' + error);
     }
 );
-
+```
 
